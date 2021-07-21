@@ -4,7 +4,8 @@ export type appearAnimations =
    | "showByUpSlide"
    | "showByLeftSlide"
    | "showByOpacity"
-   | "showByApproachSpin";
+   | "showByApproachSpin"
+   | string;
 
 export type desapearAnimations =
    | "fadeByDownSlide"
@@ -12,7 +13,8 @@ export type desapearAnimations =
    | "fadeByUpSlide"
    | "fadeByLeftSlide"
    | "fadeByOpacity"
-   | "fadeByApproachSpin";
+   | "fadeByApproachSpin"
+   | string;
 
 export type CrazyModalProps = {
    open?: boolean;
