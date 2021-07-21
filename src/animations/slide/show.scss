@@ -1,0 +1,35 @@
+@keyframes showByDownSlide {
+   from {
+      transform: translateY(100vh);
+   }
+   to {
+      transform: translateY(0);
+   }
+}
+
+@keyframes showByRightSlide {
+   from {
+      transform: translateX(100vw);
+   }
+   to {
+      transform: translateX(0);
+   }
+}
+
+@keyframes showByUpSlide {
+   from {
+      transform: translateY(-100vh);
+   }
+   to {
+      transform: translateY(0);
+   }
+}
+
+@keyframes showByLeftSlide {
+   from {
+      transform: translateX(-100vw);
+   }
+   to {
+      transform: translateX(0);
+   }
+}

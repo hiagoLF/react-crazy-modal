@@ -1,0 +1,35 @@
+@keyframes fadeByDownSlide {
+   from {
+      transform: translateY(0);
+   }
+   to {
+      transform: translateY(100vh);
+   }
+}
+
+@keyframes fadeByRightSlide {
+   from {
+      transform: translateX(0);
+   }
+   to {
+      transform: translateX(100vw);
+   }
+}
+
+@keyframes fadeByUpSlide {
+   from {
+      transform: translateY(0);
+   }
+   to {
+      transform: translateY(-100vh);
+   }
+}
+
+@keyframes fadeByLeftSlide {
+   from {
+      transform: translateX(0);
+   }
+   to {
+      transform: translateX(-100vw);
+   }
+}
