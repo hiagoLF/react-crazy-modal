@@ -29,7 +29,9 @@ const CrazyModalContainer: React.FC<CrazyModalContainerProps> = ({
                animationTimingFunction:
                   renderProps.animations?.background?.timingFunction,
                backgroundColor: renderProps.backgroundColor,
-               opacity: (renderProps.backgroundOpacity || 1) * 100 + "%",
+               opacity:
+                  renderProps.backgroundOpacity &&
+                  renderProps.backgroundOpacity * 100 + "%",
             }}
          />
 

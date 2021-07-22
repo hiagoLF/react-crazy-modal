@@ -34,8 +34,8 @@ const CrazyModal: React.FC<CrazyModalProps> = ({
       setClosing(true);
 
       const majorTime = getMajorTime(
-         animations?.modal?.time || 500,
-         animations?.background?.time || 500
+         animations?.modal?.time || 0,
+         animations?.background?.time || 0
       );
 
       setTimeout(() => {
