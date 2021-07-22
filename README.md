@@ -107,16 +107,16 @@ export default App;
 <CrazyModal
    animations={{
       modal: {
-         appear: "showByDownSlide";    // See bellow available appear animations
-         disappear: "fadeByDownSlide"; // See bellow available disappear animations
-         time: number;
-         timingFunction: string;
-      };
+         appear: "showByDownSlide",    // See bellow available appear animations
+         disappear: "fadeByDownSlide", // See bellow available disappear animations
+         time: number,
+         timingFunction: string,
+      },
       background: {
-         appear: "showByDownSlide";    // See bellow available appear animations
-         disappear: "fadeByDownSlide"; // See bellow available disappear animations
-         time: 300;                    // Time of animations in milliseconds
-         timingFunction: "ease";       // Speed curve of animation. All css animation-timing-function are available 
+         appear: "showByDownSlide",    // See bellow available appear animations
+         disappear: "fadeByDownSlide", // See bellow available disappear animations
+         time: 300,                    // Time of animations in milliseconds
+         timingFunction: "ease",       // Speed curve of animation. All css animation-timing-function are available 
       };
    }}
 >
