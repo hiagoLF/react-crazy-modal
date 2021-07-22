@@ -1,8 +1,9 @@
 # react-crazy-modal
 
-A versatile animated modal component for ReactJS
+ - A versatile animated modal component for ReactJS
+ - See a [LIVE DEMO](https://hiagolf.github.io/live-demo-react-crazy-modal/)
 
-<img src='./preview/animations.gif'/>
+<img src='https://raw.githubusercontent.com/hiagoLF/react-crazy-modal/main/preview/animations.gif?token=AJRARGCPR7CBC2GCBDFZYWDA7GPJO'/>
 
 .
 ## Install
